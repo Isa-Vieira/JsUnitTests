@@ -10,7 +10,7 @@
     - average([1, 1]) // Retorno: 1;
     - average([1, '2']) // Retorno: undefined;
 */
-
+// Requisito 1
 const average = (recebearray) => {
   let somaarray = 0;
   let mediaarray = 0;
@@ -27,3 +27,4 @@ const average = (recebearray) => {
   return Math.round(mediaarray);
 };
 module.exports = average;
+
