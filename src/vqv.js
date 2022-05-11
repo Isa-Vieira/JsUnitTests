@@ -15,7 +15,16 @@
       trabalho na Trybe e mando muito em programação!
       #VQV!'
 */
-
-const vqv = () => {};
-
+// Requisito 3
+const vqv = (nome, idade) => {
+if (nome === 0 || idade === 0) {
+  return undefined; 
+}
+if (typeof nome === 'string' && typeof idade === 'number') {
+   return `Oi, meu nome é ${nome}!
+Tenho ${idade} anos,
+trabalho na Trybe e mando muito em programação!
+#VQV!`;
+}
+};
 module.exports = vqv;
