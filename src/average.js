@@ -27,4 +27,3 @@ const average = (recebearray) => {
   return Math.round(mediaarray);
 };
 module.exports = average;
-
